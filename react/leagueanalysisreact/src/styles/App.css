@@ -1,0 +1,22 @@
+#main_title {
+    text-align: center;
+    
+}
+
+#options{
+    text-align: center;
+    display: block;
+    padding-right: 16px;
+    float: left;
+}
+
+.App{
+    margin: auto;
+    text-align: center;
+
+}
+
+#app-nav{
+    display: inline-block;
+    padding-left: 10px;
+}
