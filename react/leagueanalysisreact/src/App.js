@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './styles/App.css';
 import Home from './components/home';
 import Contact from './components/contact';
@@ -13,6 +13,7 @@ import {
 } from 'react-router-dom';
 
 function App() {
+  
   return (
     <div>
       <h1 id='main_title'>League Analysis</h1>

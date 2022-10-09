@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Service from "../services/service";
 import '../styles/home.css';
   
 function Home (props){
@@ -18,6 +19,7 @@ function Home (props){
     <form className="player-search" onSubmit={handleSubmit} >
         <input input="text" name='text' value={name} onChange={handleChange} placeholder="Search for Player"/>
         <button type="submit">Search</button>
+        <Service></Service>
     </form>
     )
 }
