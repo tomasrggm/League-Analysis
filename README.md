@@ -1,7 +1,7 @@
 # League-Analysis
 
 to run backend:
-npm start
+SET DEBUG=leagueanalysisexpress:* & npm run devstart
 
 to run frontend:
 npm start
